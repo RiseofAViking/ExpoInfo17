@@ -1,0 +1,303 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Rise of a Viking</title>
+	<link rel="icon" href="images/icon.png">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/animate.css" rel="stylesheet" />
+    <!-- Squad theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+	<link href="color/default.css" rel="stylesheet">
+	<script src="js/javascript.js"></script>
+    <script src="js/jquery.min.js"></script>
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+	<!-- Preloader -->
+	<div id="preloader">
+	  <div id="load"></div>
+	</div>
+
+	<div id="header"> 
+		<script type="text/javascript">
+			CreerEnTete();
+		</script>
+	</div>     
+
+	<!-- Section: intro -->
+    <section id="intro" class="intro">
+	
+		<div class="slogan">
+			<h2 id="welcome">Galerie photos/vidéos</h2>
+			<h4>Le jeu en sons et en images!</h4>
+		</div>
+		<div class="page-scroll">
+			<a href="#gallery" class="btn btn-circle">
+				<i class="fa fa-angle-double-down animated"></i>
+			</a>
+		</div>
+    </section>
+	<!-- /Section: intro -->
+	
+	
+	<script src="js/jssor.slider-26.3.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
+
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:800,x:0.25,$Zoom:1.5,$Easing:{$Left:$Jease$.$InWave,$Zoom:$Jease$.$InCubic},$Opacity:2,$ZIndex:-10,$Brother:{$Duration:800,x:-0.25,$Zoom:1.5,$Easing:{$Left:$Jease$.$InWave,$Zoom:$Jease$.$InCubic},$Opacity:2,$ZIndex:-10}},
+              {$Duration:1200,x:0.5,$Cols:2,$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InOutCubic},$Opacity:2,$Brother:{$Duration:1200,$Opacity:2}},
+              {$Duration:600,x:0.3,$During:{$Left:[0.6,0.4]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2,$Brother:{$Duration:600,x:-0.3,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2}},
+              {$Duration:1000,x:1,$Rows:2,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InOutQuart,$Opacity:$Jease$.$Linear},$Opacity:2,$Brother:{$Duration:1000,x:-1,$Rows:2,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InOutQuart,$Opacity:$Jease$.$Linear},$Opacity:2}},
+              {$Duration:1000,y:-1,$Cols:2,$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InOutQuart,$Opacity:$Jease$.$Linear},$Opacity:2,$Brother:{$Duration:1000,y:1,$Cols:2,$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InOutQuart,$Opacity:$Jease$.$Linear},$Opacity:2}},
+              {$Duration:800,y:1,$Easing:{$Top:$Jease$.$InOutQuart,$Opacity:$Jease$.$Linear},$Opacity:2,$Brother:{$Duration:800,y:-1,$Easing:{$Top:$Jease$.$InOutQuart,$Opacity:$Jease$.$Linear},$Opacity:2}},
+              {$Duration:1000,x:-0.1,y:-0.7,$Rotate:0.1,$During:{$Left:[0.6,0.4],$Top:[0.6,0.4],$Rotate:[0.6,0.4]},$Easing:{$Left:$Jease$.$InQuad,$Top:$Jease$.$InQuad,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuad},$Opacity:2,$Brother:{$Duration:1000,x:0.2,y:0.5,$Rotate:-0.1,$Easing:{$Left:$Jease$.$InQuad,$Top:$Jease$.$InQuad,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuad},$Opacity:2}},
+              {$Duration:800,x:-0.2,$Delay:40,$Cols:12,$During:{$Left:[0.4,0.6]},$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationStraight,$Assembly:260,$Easing:{$Left:$Jease$.$InOutExpo,$Opacity:$Jease$.$InOutQuad},$Opacity:2,$Outside:true,$Round:{$Top:0.5},$Brother:{$Duration:800,x:0.2,$Delay:40,$Cols:12,$Formation:$JssorSlideshowFormations$.$FormationStraight,$Assembly:1028,$Easing:{$Left:$Jease$.$InOutExpo,$Opacity:$Jease$.$InOutQuad},$Opacity:2,$Round:{$Top:0.5},$Shift:-200}},
+              {$Duration:700,$Opacity:2,$Brother:{$Duration:700,$Opacity:2}},
+              {$Duration:800,x:1,$Easing:{$Left:$Jease$.$InOutQuart,$Opacity:$Jease$.$Linear},$Opacity:2,$Brother:{$Duration:800,x:-1,$Easing:{$Left:$Jease$.$InOutQuart,$Opacity:$Jease$.$Linear},$Opacity:2}},
+              {$Duration:800,x:0.25,y:0.5,$Rotate:-0.1,$Easing:{$Left:$Jease$.$InQuad,$Top:$Jease$.$InQuad,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuad},$Opacity:2,$Brother:{$Duration:800,x:-0.1,y:-0.7,$Rotate:0.1,$Easing:{$Left:$Jease$.$InQuad,$Top:$Jease$.$InQuad,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuad},$Opacity:2}}
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $FillMode: 5,
+              $Align: 0,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              },
+			  $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $Cols: 1,
+                $Orientation: 2,
+                $Align: 0,
+                $NoDrag: true
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 600;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+		
+		$(document).ready(function() {
+	$('video').videoPlayer({
+		'playerWidth' : 0.95,
+		'videoClass' : 'video'	
+	});
+});
+    </script>
+    <style>
+        /* jssor slider loading skin spin css */
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+
+        .jssorb072 .i {position:absolute;color:#000;font-family:"Helvetica neue",Helvetica,Arial,sans-serif;text-align:center;cursor:pointer;z-index:0;}
+        .jssorb072 .i .b {fill:#fff;opacity:.3;}
+        .jssorb072 .i:hover {opacity:.7;}
+        .jssorb072 .iav {color:#fff;}
+        .jssorb072 .iav .b {fill:#000;opacity:.5;}
+        .jssorb072 .i.idn {opacity:.3;}
+
+        .jssora073 {display:block;position:absolute;cursor:pointer;}
+        .jssora073 .a {fill:#ddd;fill-opacity:.7;stroke:#000;stroke-width:160;stroke-miterlimit:10;stroke-opacity:.7;}
+        .jssora073:hover {opacity:.8;}
+        .jssora073.jssora073dn {opacity:.4;}
+        .jssora073.jssora073ds {opacity:.3;pointer-events:none;}
+		
+    </style>
+	<section id="gallery" class="home-section">
+		<h2 class="viking whiteShadow">Rise of a Viking en images</h2> 		 
+		<div class="text-center"><i class="fa fa-2x fa-angle-down"></i></div>
+		<div id="bGallery" style="margin-top:50px;"> 
+			<div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:600px;height:500px;overflow:hidden;visibility:hidden;">
+				<!-- Loading Screen -->
+				<div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+					<img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+				</div>
+				<div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:500px;overflow:hidden;text-align:none">
+					<div>
+						<img data-u="image" src="images/logo_RoaV.png"/>				
+						<div u="thumb">Le logo du jeu Rise of a Viking</div>
+					</div>
+					<div>
+						<img data-u="image" src="images/forêt.png"/>				
+						<div u="thumb">Björn dans la forêt</div>
+					</div>
+					<div>
+						<img data-u="image" src="images/RecuperationHache.png" />
+						 <div u="thumb">Récupérer une arme</div>
+					</div>
+					<div>
+						<img data-u="image" src="images/combat.png" />
+						 <div u="thumb">Combat dans l'arène</div>
+					</div>
+					<div>
+						<img data-u="image" src="images/teleportation.png" />
+						 <div u="thumb">Téléportation de l'IA dans le combat</div>
+					</div>
+					<div>
+						<img data-u="image" src="images/reaparition.png" />
+						 <div u="thumb">Réapparition de l'IA derrière le joueur dans le combat</div>
+					</div>		
+				</div>
+					 <!-- Thumbnail Navigator -->
+				<div u="thumbnavigator" style="position:absolute;bottom:0px;left:0px;width:980px;height:50px;color:#FFF;overflow:hidden;cursor:default;background-color:rgba(0,0,0,.5);">
+					<div u="slides">
+						<div u="prototype" style="position:absolute;top:0;left:0;width:980px;height:50px;">
+							<div u="thumbnailtemplate" style="position:absolute;top:0;left:0;width:100%;height:100%;font-family:verdana;font-weight:normal;line-height:50px;font-size:16px;padding-left:10px;box-sizing:border-box;"></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Bullet Navigator -->
+				<div data-u="navigator" class="jssorb072" style="position:absolute;top:425px;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+					<div data-u="prototype" class="i" style="width:24px;height:24px;font-size:12px;line-height:24px;">
+						<svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:-1;">
+							<circle class="b" cx="8000" cy="8000" r="6666.7"></circle>
+						</svg>
+						<div data-u="numbertemplate" class="n"></div>
+					</div>
+				</div>
+				<!-- Arrow Navigator -->
+				<div data-u="arrowleft" class="jssora073" style="width:40px;height:50px;top:0px;left:0px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+					<svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+						<path class="a" d="M4037.7,8357.3l5891.8,5891.8c100.6,100.6,219.7,150.9,357.3,150.9s256.7-50.3,357.3-150.9 l1318.1-1318.1c100.6-100.6,150.9-219.7,150.9-357.3c0-137.6-50.3-256.7-150.9-357.3L7745.9,8000l4216.4-4216.4 c100.6-100.6,150.9-219.7,150.9-357.3c0-137.6-50.3-256.7-150.9-357.3l-1318.1-1318.1c-100.6-100.6-219.7-150.9-357.3-150.9 s-256.7,50.3-357.3,150.9L4037.7,7642.7c-100.6,100.6-150.9,219.7-150.9,357.3C3886.8,8137.6,3937.1,8256.7,4037.7,8357.3 L4037.7,8357.3z"></path>
+					</svg>
+				</div>
+				<div data-u="arrowright" class="jssora073" style="width:40px;height:50px;top:0px;right:0px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+					<svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+						<path class="a" d="M11962.3,8357.3l-5891.8,5891.8c-100.6,100.6-219.7,150.9-357.3,150.9s-256.7-50.3-357.3-150.9 L4037.7,12931c-100.6-100.6-150.9-219.7-150.9-357.3c0-137.6,50.3-256.7,150.9-357.3L8254.1,8000L4037.7,3783.6 c-100.6-100.6-150.9-219.7-150.9-357.3c0-137.6,50.3-256.7,150.9-357.3l1318.1-1318.1c100.6-100.6,219.7-150.9,357.3-150.9 s256.7,50.3,357.3,150.9l5891.8,5891.8c100.6,100.6,150.9,219.7,150.9,357.3C12113.2,8137.6,12062.9,8256.7,11962.3,8357.3 L11962.3,8357.3z"></path>
+					</svg>
+				</div>
+			</div>
+		</div> 
+		<script type="text/javascript">jssor_1_slider_init();</script>
+		<!-- #endregion Jssor Slider End -->
+	</section> 
+	
+	<div class="col-lg-2 col-lg-offset-5">
+			<hr class="marginbot-50">
+	</div>
+		
+			
+	<!-- Section: Vidéo -->
+    <section id="trailer" class="home-section text-center">
+	
+	<h2 class="viking whiteShadow">La bande-annonce de Rise of a Viking</h2> 
+	<i class="fa fa-2x fa-angle-down"></i>
+	<br/> 
+	<iframe style="padding-top:50px;" width="800" height="500" src="https://www.youtube.com/embed/T-GwLmVnVfI?rel=0" frameborder="0" gesture="media" allowfullscreen></iframe>
+	
+	</section> 
+	<div class="col-lg-2 col-lg-offset-5">
+			<hr class="marginbot-50">
+	</div>
+		
+	<!-- Section: Images -->
+    <section id="levels" class="home-section text-center">
+		
+		<h2 class="viking whiteShadow">Les niveaux de RoaV</h2> 
+		<i class="fa fa-2x fa-angle-down"></i>
+		<div id="AboutLeft" style="margin-top:50px; font-size:18px;">
+			<img id="imgLeft" src="images/level1.png" style="top:-20px;"></img>
+			<h3>Niveau 1 : La forêt</h3>
+			Un parcours tracé par la nature dans les sentiers de la forêt Myrkviðr et dans les montagnes du Dulatus. On dit de cet endroit qu'il est dangereux, mais parsemé 
+			de trésors perdus autrefois laissés par une ancienne tribu viking qui s'y était installée. Les rumeurs portent à croire qu'un gardien protégerait ces sentiers, 
+			mais jamais personne ne l'a vu. Gare à vous et à où vous mettez les pieds, il y peut-être des pièges!
+		</div>
+		
+		<div id="AboutRight" style="margin-top:100px; font-size:18px;">
+			<img id="imgRight" src="images/level2.png"></img>
+			<h3>Niveau 2 : L'arène</h3>
+			À l'embouchure de la grotte de Norstead se trouve une veille arène de combat, tout juste bordé par le lac Aelin et ses rivières. On raconte que des esprits maléfiques
+			gardent cette place, des esprits qui seraient tombés au combat jadis dans leur vie antérieure. De nombreux guerriers y sont allés pour tenter de libérer la vieille arène 
+			de ses tourments, mais aucun en est ressorti...
+		</div>
+		<div id="AboutLeft" style="margin-top:100px; font-size:18px;">
+			<img id="imgLeft" src="images/level3.jpg"></img>
+			<h3>Niveau 3 : Le test ultime</h3>
+			Non loin des montagnes périlleuses se trouve un tout petit village viking du nom de Kattegat, désormais abandonné. Selon une veille légende nordique, on raconte que ce village renferme plusieurs
+			secrets. Des trésors peut-être? La légende raconte également qu'après plusieurs décennies de paix absolue, le peuple viking dût affronter
+			un terrible obstacle : la maladie. En effet, une terrible maladie infectieuse les auraient frappés et elle aurait décimé bon nombre de valeureux guerriers. Pendant que les femmes
+			et les enfants quittèrent à la hâte, les derniers guerriers viking auraient caché et protégé leurs trésors. Quels mystères peut bien renfermer Kattegat...
+		</div>
+					
+	</section> 
+
+	<footer id="footer">		
+		<script type="text/javascript">
+			CreerPiedDePage();
+		</script>
+	</footer>
+
+    <!-- Core JavaScript Files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>	
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/wow.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
